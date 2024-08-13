@@ -1,10 +1,10 @@
 
 Overview
-This repository contains the implementation of the ChaCheon signature scheme integrated with a custom elliptic curve, the Paosinuga Curve. The project is designed to provide a secure and efficient framework for cryptographic operations using Python. It focuses on leveraging elliptic curve cryptography (ECC) for digital signatures and secure message encryption.
+This repository contains the implementation of the ChaCheon signature scheme integrated with a custom elliptic curve, the Paosinuga Curve. 
+The project is designed to provide a secure and efficient framework for cryptographic operations using Python. It focuses on leveraging elliptic curve cryptography (ECC) for digital signatures and secure message encryption.
 
 Implemented Components
 Paosinuga Curve: A custom elliptic curve defined with new parameters for cryptographic operations. Includes methods for point addition, scalar multiplication, and other essential elliptic curve functions.
-
 ChaCheon Signature Scheme: Implements the ChaCheon signature scheme for secure signing and verification of messages, enhancing security with elliptic curve cryptography.
 
 
@@ -22,13 +22,12 @@ Secure Cloud Transfer Application: main.py provides a complete application for s
 How to Use
 Clone the Repository:
 git clone https://github.com/Brainbox/chacheon-paosinuga-curve.git
-
 cd chacheon-paosinuga-curve
 
 
 
 Run the Application:
-python main.py
+Python3 main.py
 Follow the prompts to register users, send messages, and read messages.
 
 
@@ -47,6 +46,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 References
 ChaCheon, C. (2021). ChaCheon Signature Scheme. Online Source
-Paosinuga, P. (2024). Paosinuga Curve Cryptography. Online Source
 Elliptic Curve Cryptography. Wikipedia
 PyCryptodome Documentation. PyCryptodome
