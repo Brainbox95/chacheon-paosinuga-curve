@@ -17,30 +17,33 @@ ChaCheon Integration: chacheon.py implements the ChaCheon signature scheme, enab
 Secure Cloud Transfer Application: main.py provides a complete application for secure message transfer, integrating both the ChaCheon scheme and Paosinuga Curve. Includes functionality for user registration, message encryption, and decryption.
 
 
-Files
-paosinuga_curve.py: Defines the Paosinuga Curve with custom elliptic curve parameters.
-chacheon.py: Implements the ChaCheon signature scheme for digital signatures.
-main.py: Main script for running the secure cloud transfer application.
+
 
 How to Use
 Clone the Repository:
-
 git clone https://github.com/Brainbox/chacheon-paosinuga-curve.git
+
 cd chacheon-paosinuga-curve
+
+
 
 Run the Application:
 python main.py
-
 Follow the prompts to register users, send messages, and read messages.
+
 
 Results
 The repository showcases the integration of ChaCheon and Paosinuga Curve for secure communication. The application allows users to send encrypted messages with multi-layered security, including elliptic curve-based digital signatures and AES encryption.
 
+
 Contribution
 Contributions to improve the implementation, add new features, or expand the cryptographic analysis are welcome. Please fork the repository and submit pull requests.
 
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
 
 References
 ChaCheon, C. (2021). ChaCheon Signature Scheme. Online Source
