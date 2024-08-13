@@ -6,11 +6,20 @@ The project is designed to provide a secure and efficient framework for cryptogr
 
 
 
+
+
+
+
+
 Implemented Components:
 
 Paosinuga Curve: A custom elliptic curve defined with new parameters for cryptographic operations. Includes methods for point addition, scalar multiplication, and other essential elliptic curve functions.
 
 ChaCheon Signature Scheme: Implements the ChaCheon signature scheme for secure signing and verification of messages, enhancing security with elliptic curve cryptography.
+
+
+
+
 
 
 
@@ -26,10 +35,17 @@ Secure Cloud Transfer Application: main.py provides a complete application for s
 
 
 
+
+
+
+
+
 How to Use
 Clone the Repository:
 git clone https://github.com/Brainbox/chacheon-paosinuga-curve.git
 cd chacheon-paosinuga-curve
+
+
 
 
 
@@ -39,16 +55,30 @@ Python3 main.py
 Follow the prompts to register users, send messages, and read messages.
 
 
+
+
+
 Results
 The repository showcases the integration of ChaCheon and Paosinuga Curve for secure communication. The application allows users to send encrypted messages with multi-layered security, including elliptic curve-based digital signatures and AES encryption.
+
+
+
+
 
 
 Contribution
 Contributions to improve the implementation, add new features, or expand the cryptographic analysis are welcome. Please fork the repository and submit pull requests.
 
 
+
+
+
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
 
 
 
