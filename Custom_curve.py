@@ -1,4 +1,4 @@
-class PaosinugaCurve:
+class CustomCurve:
     def __init__(self, p, a, b):
         self.p = p
         self.a = a
